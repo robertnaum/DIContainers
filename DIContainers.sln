@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity - MVC", "Unity - MVC\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity - MVC5", "Unity - MVC5\Unity - MVC5.csproj", "{FC526064-10DD-4F3A-BF95-27F395A6DE5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-All", "Unity-All\Unity-All.csproj", "{F8D4667F-22E0-427E-A2EE-0A651F0465BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{FC526064-10DD-4F3A-BF95-27F395A6DE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC526064-10DD-4F3A-BF95-27F395A6DE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC526064-10DD-4F3A-BF95-27F395A6DE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D4667F-22E0-427E-A2EE-0A651F0465BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D4667F-22E0-427E-A2EE-0A651F0465BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D4667F-22E0-427E-A2EE-0A651F0465BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D4667F-22E0-427E-A2EE-0A651F0465BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
