@@ -1,5 +1,4 @@
 using System.Web;
-
 using Microsoft.Practices.Unity;
 using Unity.WebForms;
 using BusinessLibrary;
@@ -25,16 +24,19 @@ namespace Unity_All.App_Start
 			HttpContext.Current.Application.SetContainer( container );
 
 			RegisterDependencies( container );
-		}
+            System.Web.Mvc.DependencyResolver.SetResolver(new Unity.Mvc5.UnityDependencyResolver(container));
+            System.Web.Http.GlobalConfiguration.Configuration.DependencyResolver = new Unity.WebApi.UnityDependencyResolver(container);
 
-		/// <summary>
-		///		Registers dependencies in the supplied container.
-		/// </summary>
-		/// <param name="container">Instance of the container to populate.</param>
-		public static void RegisterDependencies( IUnityContainer container )
+        }
+
+        /// <summary>
+        ///		Registers dependencies in the supplied container.
+        /// </summary>
+        /// <param name="container">Instance of the container to populate.</param>
+        public static void RegisterDependencies( IUnityContainer container )
 		{
             // TODO: Add any dependencies needed here
-            container.RegisterType(typeof(IDrivable), typeof(SportsCar), new HierarchicalLifetimeManager());
+            container.RegisterType(typeof(IDrivable), typeof(Bus), new HierarchicalLifetimeManager());
 
         }
     }

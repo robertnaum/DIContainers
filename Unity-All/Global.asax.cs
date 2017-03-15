@@ -16,7 +16,7 @@ namespace Unity_All
         {
             // Code that runs on application startup
             AreaRegistration.RegisterAllAreas();
-            UnityConfig.RegisterComponents();
+            //UnityConfig.RegisterComponents();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);            
         }
