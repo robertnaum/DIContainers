@@ -12,4 +12,5 @@ Need to get up and running quickly with Dependency Injection (DI) containers?
       &lt;add assembly="System.Runtime, Version=4.0.0.0, Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a" /&gt;
    &lt;/assemblies&gt;
 
-5. 
+5. Install Unity.WebAPI
+6. Install Unity.MVC5
